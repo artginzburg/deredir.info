@@ -1,0 +1,13 @@
+User-agent: GoogleBot
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.gif
+
+User-agent: Yandex
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.gif

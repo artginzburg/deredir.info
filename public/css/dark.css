@@ -1,0 +1,64 @@
+@media (prefers-color-scheme: dark) {
+    button, input[type=submit], .but {
+        color: rgba(225, 233, 201, .6);
+        box-shadow: rgba(225, 233, 201, .4) 0 0px 0px 2px inset;
+    }
+    button:hover, input[type=submit]:hover, .but:hover {
+        color: rgba(0, 0, 0, .85);
+        /* box-shadow: rgba(225, 233, 201, .7) 0 0px 0px 40px inset; */
+        box-shadow: rgba(225, 233, 201, .7) 0 0px 0px 3em inset;
+    }
+    ::placeholder {
+        color: #7b7b7b;
+    }
+    input {
+        background: #060606;
+        color: white;
+        transition-duration: .4s;
+    }
+    body {
+        color: #bbb;
+        background-color: #1e1e1e;
+    }
+    img {
+        filter: drop-shadow(12px 12px 25px rgba(255, 255, 255, .2));
+        -webkit-filter: drop-shadow(12px 12px 25px rgba(255, 255, 255, .2));
+    }
+    ::selection {
+        color: #181818;
+    }
+    #right:hover {
+        color: #a0a0a0;
+    }
+    #reqUri {
+        color: lightgray;
+        /* text-shadow: #000 0 0 2px; */
+    }
+    input:-webkit-autofill,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0 1000px #060606 inset !important;
+        background-color: #060606 !important;
+        -webkit-text-fill-color: #ccc !important;
+    }
+    @media (hover:hover) {
+        #right:hover {
+            color: #a0a0a0;
+        }
+    }
+    .status {
+        text-shadow: 0 0 .5em rgba(0, 0, 0, .3);
+        color: #fdfdfd;
+    }
+    .redir {
+        color: #bbb;
+    }
+    #req {
+        color: gray;
+    }
+    .dest {
+        color: black;
+        background-color: rgba(255, 255, 255, .8);
+    }
+}

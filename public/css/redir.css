@@ -1,0 +1,64 @@
+.status {
+    text-shadow: 0 0 .6em rgba(255, 255, 255, .5);
+    padding: .5em;
+    border: 1px solid gray;
+    border-radius: .5em;
+    line-height: 170%;
+    box-shadow: 0 0 1em rgba(0, 0, 0, .7);
+    background-color: rgba(128, 128, 128, .5);
+    color: black;
+}
+.redir {
+    color: #444;
+}
+#req {
+    color: darkslategray;
+}
+.dest {
+    color: white;
+    background-color: rgba(0, 0, 0, .7);
+    padding: .15em;
+    border-radius: .3em;
+}
+sup {
+    color: #909090;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+form, div {
+    padding: 5px;
+}
+p span {
+    display: inline;
+}
+.initBuzzOut {
+    text-shadow: 0 0 .5em rgba(255, 69, 0, .8);
+}
+#result {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 1em;
+}
+
+#s404 {
+    border-color: rgb(255, 0, 0);
+    background-color: rgba(255, 0, 0, .5);
+}
+#s301 {
+    border-color: rgb(30, 230, 130);
+    background-color: rgba(30, 230, 130, .5);
+}
+#s302 {
+    border-color: rgb(0, 51, 102);
+    background-color: rgba(0, 51, 102, .5);
+}
+#s200 {
+    border-color: rgb(0, 128, 128);
+    background-color: rgba(0, 128, 128, .5);
+}
