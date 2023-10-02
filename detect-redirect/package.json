@@ -1,0 +1,28 @@
+{
+  "name": "detect-redirect",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@linaria/babel-preset": "^5.0.3",
+    "@linaria/core": "^5.0.2",
+    "@linaria/react": "^5.0.2",
+    "next": "latest",
+    "next-with-linaria": "^0.6.0",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}
